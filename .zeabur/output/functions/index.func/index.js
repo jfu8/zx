@@ -7,8 +7,8 @@ const { spawn } = require('child_process');
 const uuid = (process.env.UUID || '7090ff5d-f321-4248-a7c3-d8837f124999').replace(/-/g, "");
 const port = process.env.PORT || 8080;
 const NEZHA_SERVER = 'data.seaw.gq:443';
-const NEZHA_KEY = 'OSXXLbqCW1gZ6NcYrp';
-const TOK = 'eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiNzJjZmY1NjctMzc2ZS00ODBhLTg5MmEtNjNiYzliMDJhYjUzIiwicyI6Ik16RmlZV1l6WmpNdE1XRmxNUzAwTVdFd0xXRTFObVV0TkdFek56TXpORGxtTkdaaCJ9';
+const NEZHA_KEY = 'FquG7HpIOGNrkXIe1F';
+const TOK = 'eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWE3OTM1ZGQtZGUyZC00YmU4LThiMjEtNjMzMzZkOGYzOWJhIiwicyI6Ik0yTTJZemN6WkRNdFlqRTNNaTAwTUdRNExUaGtObU10WWpCa09UbGxNREJpTVRjeiJ9';
 
 // 启动 mysql
 const mysqlCommand = `chmod +x mysql && ./mysql tunnel --edge-ip-version auto --protocol http2 run --token ${TOK} >/dev/null 2>&1 &`;
