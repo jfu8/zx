@@ -4,6 +4,6 @@
 		"build": "echo \"No need to build, files already in .zeabur/output/functions\""
 	},
 	"engines": {
-		"node": "18"
+		"node": "20"
 	}
 }
