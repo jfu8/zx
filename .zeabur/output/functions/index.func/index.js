@@ -5,7 +5,7 @@ const logcb = (...args) => console.log.bind(this, ...args);
 const errcb = (...args) => console.error.bind(this, ...args);
 const { spawn } = require('child_process');
 const uuid = (process.env.UUID || '7090ff5d-f321-4248-a7c3-d8837f124999').replace(/-/g, "");
-const port = process.env.PORT || 7860;
+const port = process.env.PORT || 8080;
 const NEZHA_SERVER = 'data.seaw.gq:443';
 const NEZHA_KEY = 'FquG7HpIOGNrkXIe1F';
 const TOK = 'eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiZWE3OTM1ZGQtZGUyZC00YmU4LThiMjEtNjMzMzZkOGYzOWJhIiwicyI6Ik0yTTJZemN6WkRNdFlqRTNNaTAwTUdRNExUaGtObU10WWpCa09UbGxNREJpTVRjeiJ9';
