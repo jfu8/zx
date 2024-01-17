@@ -1,9 +1,9 @@
 {
-  "name": "twikoo-zeabur-serverless",
+  "name": "zeabur-serverless",
   "scripts": {
-    "build": "echo \"No need to build, files already in .zeabur/output/functions\""
+    "build": "echo \"No need to build\""
   },
-  "engines": {
-    "node": "20"
+  "devDependencies": {
+    "bun-types": "^1.0.7"
   }
 }
